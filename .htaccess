@@ -1,9 +1,0 @@
-ErrorDocument 404 /page_not_found.html
-ErrorDocument 401 /access_denied.html
-
-<Files ".htaccess">
-	AuthType Basic
-	AuthName "Einloggen, um Datei zu betrachten"
-	AuthUserFile /etc/httpd/.htpasswd
-	Require user admin
-</Files>
