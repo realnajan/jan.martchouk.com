@@ -9,6 +9,7 @@
   <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
   <link rel="stylesheet" href="./css/style.min.css">
   <link rel="stylesheet" href="./css/style_designs.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.css">
   <title>Jan M</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
@@ -56,7 +57,7 @@
       </ul>
       </div>
   </nav>
-  <nav class="sticky-top h-auto d-none d-lg-block">
+  <nav class="d-none d-lg-block">
     <section id=nav-items>
       <ul class="d-none d-lg-block">
         <li><a href="index.html">Home</a></li>
@@ -80,96 +81,30 @@
       </ul>
     </section>
   </nav>
-  <div class=container-fluid>
-    <div class="row">
-      <div class=col>
-        <h1 id=heading><b>Designs</b></h1>
-        <br>
-        <hr>
 
-        <div class=row>
-          <div class="design align-center col-xs-12 col-md" data-modal="net-modal">
-            <img id=design_net src="img/designs/net.png" width=100%>
-          </div>
-          <div class="design align-center col-xs-12 col-md" data-modal="hope-modal">
-            <img id=design_hope src="img/designs/hope.png" width=100%>
-          </div>
-          <div class="design align-center col-xs-12 col-md" data-modal="iwantu-modal">
-            <img id=design_iwantu src="img/designs/iwantu.png" width=100%>
-          </div>
-          <div class="design align-center col-xs-12 col-md" data-modal="subreme-modal">
-            <img id=design_subreme src="img/designs/subreme.png" width=100%>
-          </div>
-        </div>
-        <div class="row">
-          <div class="design align-center col-xs-12 col-md" data-modal="netflix-modal">
-            <img id=design_netflix src="img/designs/pewdsflix.png" width=100%>
-          </div>
-          <div class="design col-xs-12 col-md" data-modal="profilepic-modal">
-            <img id=design_profilepic src="img/designs/flatavatar.png.svg" width=100%>
-          </div>
-          <div class="design col-xs-12 col-md" data-modal="J-modal">
-            <img id=design_J src="img/J.png.svg" width=100%>
-          </div>
-          <div id=center class="design align-center col-xs-12 col-md" data-modal="JAN-modal">
-            <img id=design_JAN src="img/designs/JAN.png" width=100%>
-          </div>
-        </div>
-        <div class="img-modal" id="net-modal">
-          <div class="img-mcontent" id="net-mcontent">
-            <span class="img-mclose">&times;</span>
-            <img src="img/designs/net.png">
-          </div>
-        </div>
-        <div class="img-modal" id="hope-modal">
-          <div class="img-mcontent" id="hope-mcontent">
-            <span class="img-mclose">&times;</span>
-            <img src="img/designs/hope.png">
-          </div>
-        </div>
-        <div class="img-modal" id="iwantu-modal">
-          <div class="img-mcontent" id="iwantu-mcontent">
-            <span class="img-mclose">&times;</span>
-            <img src="img/designs/iwantu.png">
-          </div>
-        </div>
-        <div class="img-modal" id="subreme-modal">
-          <div class="img-mcontent" id="subreme-mcontent">
-            <span class="img-mclose">&times;</span>
-            <img src="img/designs/subreme.png">
-          </div>
-        </div>
-        <div class="img-modal" id="netflix-modal">
-          <div class="img-mcontent" id="netflix-mcontent">
-            <span class="img-mclose">&times;</span>
-            <img src="img/designs/pewdsflix.png">
-          </div>
-        </div>
-        <div class="img-modal" id="profilepic-modal">
-          <div class="img-mcontent" id="profilepic-mcontent">
-            <span class="img-mclose">&times;</span>
-            <img src="img/designs/flatavatar.png.svg">
-          </div>
-        </div>
-        <div class="img-modal" id="J-modal">
-          <div class="img-mcontent" id="J-mcontent">
-            <span class="img-mclose">&times;</span>
-            <img src="img/designs/J.png.svg">
-          </div>
-        </div>
-        <div class="img-modal" id="JAN-modal">
-          <div class="img-mcontent" id="JAN-mcontent">
-            <span class="img-mclose">&times;</span>
-            <img src="img/designs/JAN.png">
-          </div>
-        </div>
+  <h1 id=heading><b>Designs</b></h1>
+  <br>
+  <hr>
+  <br>
+
+  <div class="wrapper row">
+
+    <div class="img-modal">
+      <div class="img-mcontent">
+        <span class="img-mclose">&times;</span>
+        <img class="modal-img" alt=design>
+        <h3 id="img-sub"></h3>
       </div>
     </div>
+
   </div>
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
   <script src="./js/script.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.min.js"></script>
+
 </body>
 
 </html>

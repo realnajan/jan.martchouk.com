@@ -9,6 +9,7 @@
 	<script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
 	<link rel="stylesheet" href="./css/style.min.css">
 	<link rel="stylesheet" href="./css/style_home.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.css">
 	<title>Jan M</title>
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
@@ -81,16 +82,33 @@
 		</section>
 
 	</nav>
-	<div id=bg>
-		<h1 id=jan>JAN</h1>
+	<div id="fullpage">
+		<div class="section">
+			<div id=bg>
+				<h1 id=jan>JAN</h1>
+			</div>
+		</div>
+		<div class="section">Some section</div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
-	<script src="./js/script.js"></script>
+	<script src="./js/script.js "></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.min.js"></script>
 	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				//options here
+				autoScrolling: true,
+				scrollHorizontally: true
+			});
+
+			//methods
+			$.fn.fullpage.setAllowScrolling(true);
+		});
 	</script>
+
 </body>
 
 </html>
