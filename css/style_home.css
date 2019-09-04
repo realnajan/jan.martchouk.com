@@ -19,8 +19,6 @@ h1 {
     font-size: 3rem;
     font-family: Helvetica, sans-serif;
     font-weight: 900;
-    position: absolute;
-    width: 20vw;
-    left: 42vw;
-    top: 42vh;
+    text-align: center;
+    margin-top: 20%;
 }
