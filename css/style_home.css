@@ -14,7 +14,8 @@
     left: 0
 }
 
-h1 {
+#coming {
+    letter-spacing: .15em; /* Adjust as needed */
     color: white;
     font-size: 3rem;
     font-family: Helvetica, sans-serif;
