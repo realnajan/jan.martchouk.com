@@ -1,0 +1,8 @@
+.mdi {
+    color: white;
+    transition: .1s;
+}
+
+.mdi:hover {
+    color: rgba(255,255,255,.8);
+}
