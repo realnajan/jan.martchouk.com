@@ -4,7 +4,7 @@
           rgba(0, 0, 0, 0.7), 
           rgba(0, 0, 0, 0.7)
         ),
-        url(https://images.unsplash.com/photo-1495725274072-fd5d0b961a9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=5000); 
+        url(https://images.unsplash.com/photo-1495725274072-fd5d0b961a9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000); 
     z-index: -100;
     position: absolute;
     width: 100vw;
@@ -36,7 +36,19 @@
 }
 
 .mdi {
-    padding: 0 15px
+    padding: 0 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.mdi-twitter:hover {
+    color: #1da1f2;
+}
+.mdi-youtube:hover {
+    color: #FF0000;
+}
+.mdi-instagram:hover {
+    color: #c6008e;
 }
 
 @keyframes blink{
