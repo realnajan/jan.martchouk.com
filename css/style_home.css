@@ -37,6 +37,9 @@ body {
 #social {
     text-align: center;
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mdi {
@@ -53,6 +56,14 @@ body {
 }
 .mdi-instagram:hover {
     color: #e4288b;
+}
+
+.trumplink {
+    width: 30px;
+    position: relative;
+    top: 5px;
+    padding: 0 15px;
+    filter: grayscale(1) contrast(1.5);
 }
 
 @keyframes blink{
