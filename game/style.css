@@ -1,0 +1,103 @@
+* {
+	cursor: url('bat.png'), crosshair;
+	margin: 0;
+	padding: 0;
+}
+
+*:active {
+	cursor: url('batbeat.png'), crosshair;
+}
+
+html, body {
+	width: 100vw;
+	height: 100vh;
+	cursor: url('bat.png'), crosshair;
+	background-image: url(dark-honeycomb.png);
+	background-size: 30%;
+}
+
+html:active, body:active {
+	cursor: url('batbeat.png'), crosshair;
+}
+
+h1 {
+	position: absolute;
+	font-family: sans-serif;
+	color: lightgray;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 500px;
+	z-index: 5;
+}
+
+.score {
+	text-align: center
+}
+
+.pic {
+	animation: float infinite 1s ease;
+	z-index: 5;
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+}
+
+.shake {
+	animation: shake linear .5s;
+}
+
+.minus {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+}
+
+.timer {
+	font-size: 60px;
+	top: 70%;
+}
+
+.over {
+	color: #ff6054;
+	font-size: 60px;
+	display: none;
+	position: absolute;
+	top: 70%;
+	text-transform: uppercase;
+}
+
+@keyframes float {
+	0% {
+		width: 0px;
+		transform: translate(-50%, -50%);
+	}
+	50% {
+		width: 100px;
+	}
+	100% {
+		width: 0px;
+		transform: translate(-50%, -50%);
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+	25% {
+		transform: translate(-60%, -50%);
+		color: red;
+	}
+	50% {
+		transform: translate(-40%, -50%);
+		color: red;
+	}
+	100% {
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+}
