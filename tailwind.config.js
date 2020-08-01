@@ -20,6 +20,9 @@ module.exports = {
               '800': '#424242',
               '900': '#212121',
             }
+          },
+          fontFamily: {
+            'code': 'Fira Code, monospace',
           }
       },
     },
