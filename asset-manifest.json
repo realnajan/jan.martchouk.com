@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4502002a.chunk.css",
-    "main.js": "/static/js/main.8e4612d5.chunk.js",
-    "main.js.map": "/static/js/main.8e4612d5.chunk.js.map",
+    "main.css": "/static/css/main.778566fd.chunk.css",
+    "main.js": "/static/js/main.8d8e850c.chunk.js",
+    "main.js.map": "/static/js/main.8d8e850c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.70a08211.js",
     "runtime-main.js.map": "/static/js/runtime-main.70a08211.js.map",
     "static/js/2.c15aa881.chunk.js": "/static/js/2.c15aa881.chunk.js",
     "static/js/2.c15aa881.chunk.js.map": "/static/js/2.c15aa881.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.95d2241435e1bc503ebb2ee83d7a5bfb.js": "/precache-manifest.95d2241435e1bc503ebb2ee83d7a5bfb.js",
+    "precache-manifest.3998a28fc3c9cc06ed809fb6ff5361dc.js": "/precache-manifest.3998a28fc3c9cc06ed809fb6ff5361dc.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4502002a.chunk.css.map": "/static/css/main.4502002a.chunk.css.map",
+    "static/css/main.778566fd.chunk.css.map": "/static/css/main.778566fd.chunk.css.map",
     "static/js/2.c15aa881.chunk.js.LICENSE.txt": "/static/js/2.c15aa881.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/static/media/OpticianSans-Regular.cc8ec707.ttf",
     "static/media/btc.png": "/static/media/btc.9d8a2f1b.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.70a08211.js",
     "static/js/2.c15aa881.chunk.js",
-    "static/css/main.4502002a.chunk.css",
-    "static/js/main.8e4612d5.chunk.js"
+    "static/css/main.778566fd.chunk.css",
+    "static/js/main.8d8e850c.chunk.js"
   ]
 }
